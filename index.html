@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--MENU SUPERIOR-->
+    <div id="menu-superior">
+        <h1>Tradição em projetos de arquitetura</h1>
+        <h5>Arquitetura residencial e comercial.</h5>
+    </div>
+    <!--MENU DADOS-->
+    <div id="menu-dados">
+        <div class="dado">
+            <h2>850</h2> <p id="dado1">empreendimentos construídos</p>
+        </div>
+        <div class="dado">
+            <h2 class="dado">40</h2> <p>anos de mercado e experiência</p>
+        </div>
+        <div>
+            <h2 class="dado">2,000,000</h2> <p>m² em projetos construídos</p>
+        </div>
+    </div>
+    <!--MENU HISTÓRIA-->
+    <div id="menu-historia">
+        <div id="texto">
+            <h2>Arquitetos com história e experiência</h2>
+            <p>Nós realizamos desde 2002 projetos e gerenciamento de obras.<br> Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> como principal proposta transformar em realidade os sonhos de <br> seus clientes, criando projetos personalizados, unindo a tradição <br> e a modernidade em nossos projetos.</p>
+        </div>
+        <img class="foto" id="foto1" onclick="TrocarFoto1()" src="imagens/foto 1.svg" alt="ERROR">
+        <img class="foto" id="foto2" onclick="TrocarFoto2()" src="imagens/foto 2.webp" alt="ERROR" hidden>
+        <img class="foto" id="foto3" onclick="TrocarFoto3()" src="imagens/foto 3.jpeg" alt="ERROR" hidden>
+    </div>
+    <!--FORMULÁRIO-->
+    <div id="formulario">
+        <h2>Conheça mais sobre nossos seriviços:</h2>
+        <form action="https://api.sheetmonkey.io/form/dbfPciv7zW28bVFhH8M1Qk" method="post">
+            <div>
+                <input type="text" placeholder="Nome" name="Nome"> <br>
+                <input type="email" placeholder="Email" name="Email"> <br>
+                <button type="submit"> <b>Fale Conosco</b> </button>
+            </div>
+        </form>
+    
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>

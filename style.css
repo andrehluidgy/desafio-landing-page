@@ -1,0 +1,104 @@
+*{
+    font-family: "inter";
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+    #menu-superior{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 206px 354px 197px 62px;
+    line-height: 0.7;
+    font-size: 20px;
+    }
+
+    #menu-dados{
+        background-color: #F9F9F9;
+        color: #000000;
+        display: flex;
+        justify-content: space-around;
+        padding: 96px 0px 67px 0px;
+        line-height: 0.7;
+    }
+        .dado{
+            line-height: 0;
+        }
+    #menu-historia{
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #foto1{
+        padding-top: 80px;
+        padding-bottom: 92px;
+        width: 510px;
+        height: 605px;
+        cursor: pointer;
+        border-radius: 13.8%;
+    }
+
+    #foto2{
+        padding-top: 80px;
+        padding-bottom: 92px;
+        width: 510px;
+        height: 605px;
+        cursor: pointer;
+        border: 0px;
+        border-radius: 13.8%;
+    }
+
+    #foto3{
+        padding-top: 80px;
+        padding-bottom: 92px;
+        width: 510px;
+        height: 605px;
+        cursor: pointer;
+        border: 0px;
+        border-radius: 13.8%;
+    }
+
+    #texto{
+        align-self: center;
+        justify-content: flex-start;
+        padding-left: 62px;
+        font-size:20px;
+    }
+    #formulario{
+        background: #303030;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 25px;
+        line-height: 48px;
+    }
+    input{
+        font-family: "Raleway";
+        font-weight:bold;
+        width: 408px;
+        height: 44px;
+        border: 0px;
+        border-radius: 10px;
+        margin: 15px;
+        padding-left: 10px;
+    }
+    
+    button{
+        background-color:#C07212;
+        width: 174px;
+        height: 45px;
+        border: 0px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #d8841d;
+        color: #F9F9F9;
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 20px #81531bb2;
+        transition-duration: 0.8s;
+    }
